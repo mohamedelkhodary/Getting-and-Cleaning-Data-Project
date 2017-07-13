@@ -50,3 +50,43 @@ Description of how the script work
 
 =====>> write the data onto atext file to be uploaded
 
+
+===========================================================================================================================
+
+
+Input
+-----
+
+Data set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+hint "input shall be unzipped"
+
+
+Analysis Script
+---------------
+
+`run_analysis.R`: this script takes the input data, and creates the output file. 
+
+NOTE: To run the run_analysis.R script, the data must be in \data\UCI HAR Dataset\*
+
+The script first downloads and unzips the dataset from the above url. The script then reads the test and training sets, merges them (1).  It filters down the mean and std features, and selects only these (2) It merges in the activity names for the activities (3) It then builds up a series of labeled columns to represent single variables from the feature. (4)  It calculates the average of each variable and writes out this data set to `tidy.txt` (5)
+
+
+Output
+------
+
+* Tidy dataset: Tidy Average dataset
+
+
+Code Book
+---------
+
+Code Book: describes the variables, the data, and any transformations or work that you performed to clean up the data
+
+Criteria
+--------
+
+> 1. The submitted data set is tidy.
+> 2. The Github repo contains the required scripts.
+> 3. GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
+> 4. The README that explains the analysis files is clear and understandable.
+> 5. The work submitted for this project is the work of the student who submitted it.
