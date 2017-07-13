@@ -72,85 +72,270 @@ variables Description
 6 LAYING
 ]
 
-"3" "Average tBodyAcc-mean()-X"
-"4" "Average tBodyAcc-mean()-Y"
-"5" "Average tBodyAcc-mean()-Z"
-"6" "Average tBodyAcc-std()-X"
-"7" "Average tBodyAcc-std()-Y"
-"8" "Average tBodyAcc-std()-Z"
-"9" "Average tGravityAcc-mean()-X"
-"10" "Average tGravityAcc-mean()-Y"
-"11" "Average tGravityAcc-mean()-Z"
-"12" "Average tGravityAcc-std()-X"
-"13" "Average tGravityAcc-std()-Y"
-"14" "Average tGravityAcc-std()-Z"
-"15" "Average tBodyAccJerk-mean()-X"
-"16" "Average tBodyAccJerk-mean()-Y"
-"17" "Average tBodyAccJerk-mean()-Z"
-"18" "Average tBodyAccJerk-std()-X"
-"19" "Average tBodyAccJerk-std()-Y"
-"20" "Average tBodyAccJerk-std()-Z"
-"21" "Average tBodyGyro-mean()-X"
-"22" "Average tBodyGyro-mean()-Y"
-"23" "Average tBodyGyro-mean()-Z"
-"24" "Average tBodyGyro-std()-X"
-"25" "Average tBodyGyro-std()-Y"
-"26" "Average tBodyGyro-std()-Z"
-"27" "Average tBodyGyroJerk-mean()-X"
-"28" "Average tBodyGyroJerk-mean()-Y"
-"29" "Average tBodyGyroJerk-mean()-Z"
-"30" "Average tBodyGyroJerk-std()-X"
-"31" "Average tBodyGyroJerk-std()-Y"
-"32" "Average tBodyGyroJerk-std()-Z"
-"33" "Average tBodyAccMag-mean()"
-"34" "Average tBodyAccMag-std()"
-"35" "Average tGravityAccMag-mean()"
-"36" "Average tGravityAccMag-std()"
-"37" "Average tBodyAccJerkMag-mean()"
-"38" "Average tBodyAccJerkMag-std()"
-"39" "Average tBodyGyroMag-mean()"
-"40" "Average tBodyGyroMag-std()"
-"41" "Average tBodyGyroJerkMag-mean()"
-"42" "Average tBodyGyroJerkMag-std()"
-"43" "Average fBodyAcc-mean()-X"
-"44" "Average fBodyAcc-mean()-Y"
-"45" "Average fBodyAcc-mean()-Z"
-"46" "Average fBodyAcc-std()-X"
-"47" "Average fBodyAcc-std()-Y"
-"48" "Average fBodyAcc-std()-Z"
-"49" "Average fBodyAcc-meanFreq()-X"
-"50" "Average fBodyAcc-meanFreq()-Y"
-"51" "Average fBodyAcc-meanFreq()-Z"
-"52" "Average fBodyAccJerk-mean()-X"
-"53" "Average fBodyAccJerk-mean()-Y"
-"54" "Average fBodyAccJerk-mean()-Z"
-"55" "Average fBodyAccJerk-std()-X"
-"56" "Average fBodyAccJerk-std()-Y"
-"57" "Average fBodyAccJerk-std()-Z"
-"58" "Average fBodyAccJerk-meanFreq()-X"
-"59" "Average fBodyAccJerk-meanFreq()-Y"
-"60" "Average fBodyAccJerk-meanFreq()-Z"
-"61" "Average fBodyGyro-mean()-X"
-"62" "Average fBodyGyro-mean()-Y"
-"63" "Average fBodyGyro-mean()-Z"
-"64" "Average fBodyGyro-std()-X"
-"65" "Average fBodyGyro-std()-Y"
-"66" "Average fBodyGyro-std()-Z"
-"67" "Average fBodyGyro-meanFreq()-X"
-"68" "Average fBodyGyro-meanFreq()-Y"
-"69" "Average fBodyGyro-meanFreq()-Z"
-"70" "Average fBodyAccMag-mean()"
-"71" "Average fBodyAccMag-std()"
-"72" "Average fBodyAccMag-meanFreq()"
-"73" "Average fBodyBodyAccJerkMag-mean()"
-"74" "Average fBodyBodyAccJerkMag-std()"
-"75" "Average fBodyBodyAccJerkMag-meanFreq()"
-"76" "Average fBodyBodyGyroMag-mean()"
-"77" "Average fBodyBodyGyroMag-std()"
-"78" "Average fBodyBodyGyroMag-meanFreq()"
-"79" "Average fBodyBodyGyroJerkMag-mean()"
-"80" "Average fBodyBodyGyroJerkMag-std()"
-"81" "Average fBodyBodyGyroJerkMag-meanFreq()"
+tBodyAcc-mean()-X
+
+Mean value of Raw signal from Accelerometer of Body motion in X directions as time domain
+	Numeric value
+tBodyAcc-mean()-Y
+
+Mean value of Raw signal from Accelerometer of Body motion in Y directions as time domain
+	Numeric value
+tBodyAcc-mean()-Z
+
+Mean value of Raw signal from Accelerometer of Body motion in Z directions as time domain
+	Numeric value
+tBodyAcc-std()-X
+
+Standard deviation value of Raw signal from Accelerometer of Body motion in X directions as time domain
+	Numeric value
+tBodyAcc-std()-Y
+
+Standard deviation value of Raw signal from Accelerometer of Body motion in Y directions as time domain
+	Numeric value
+tBodyAcc-std()-Z
+
+Standard deviation value of Raw signal from Accelerometer of Body motion in Z directions as time domain
+	Numeric value
+tGravityAcc-mean()-X
+
+Mean value of Raw signal from Accelerometer of Gravity acceleration in X directions as time domain
+	Numeric value
+tGravityAcc-mean()-Y
+
+Mean value of Raw signal from Accelerometer of Gravity acceleration in Y directions as time domain
+	Numeric value
+tGravityAcc-mean()-Z
+
+Mean value of Raw signal from Accelerometer of Gravity acceleration in Z directions as time domain
+	Numeric value
+tGravityAcc-std()-X
+
+Standard deviation value of Raw signal from Accelerometer of Gravity acceleration in X directions as time domain
+	Numeric value
+tGravityAcc-std()-Y
+
+Standard deviation value of Raw signal from Accelerometer of Gravity acceleration in Y directions as time domain
+	Numeric value
+tGravityAcc-std()-Z
+
+Standard deviation value of Raw signal from Accelerometer of Gravity acceleration in Z directions as time domain
+	Numeric value
+tBodyAccJerk-mean()-X
+
+Mean value of Jerk signal from Accelerometer of Body motion in X directions as time domain
+	Numeric value
+tBodyAccJerk-mean()-Y
+
+Mean value of Jerk signal from Accelerometer of Body motion in Y directions as time domain
+	Numeric value
+tBodyAccJerk-mean()-Z
+
+Mean value of Jerk signal from Accelerometer of Body motion in Z directions as time domain
+	Numeric value
+tBodyAccJerk-std()-X
+
+Standard deviation value of Jerk signal from Accelerometer of Body motion in X directions as time domain
+	Numeric value
+tBodyAccJerk-std()-Y
+
+Standard deviation value of Jerk signal from Accelerometer of Body motion in Y directions as time domain
+	Numeric value
+tBodyAccJerk-std()-Z
+
+Standard deviation value of Jerk signal from Accelerometer of Body motion in Z directions as time domain
+	Numeric value
+tBodyGyro-mean()-X
+
+Mean value of Raw signal from Gyroscope of Body motion in X directions as time domain
+	Numeric value
+tBodyGyro-mean()-Y
+
+Mean value of Raw signal from Gyroscope of Body motion in Y directions as time domain
+	Numeric value
+tBodyGyro-mean()-Z
+
+Mean value of Raw signal from Gyroscope of Body motion in Z directions as time domain
+	Numeric value
+tBodyGyro-std()-X
+
+Standard deviation value of Raw signal from Gyroscope of Body motion in X directions as time domain
+	Numeric value
+tBodyGyro-std()-Y
+
+Standard deviation value of Raw signal from Gyroscope of Body motion in Y directions as time domain
+	Numeric value
+tBodyGyro-std()-Z
+
+Standard deviation value of Raw signal from Gyroscope of Body motion in X directions as time domain
+	Numeric value
+tBodyGyroJerk-mean()-X
+
+Mean value of Jerk signal from Gyroscope of Body motion in X directions as time domain
+	Numeric value
+tBodyGyroJerk-mean()-Y
+
+Mean value of Jerk signal from Gyroscope of Body motion in Y directions as time domain
+	Numeric value
+tBodyGyroJerk-mean()-Z
+
+Mean value of Jerk signal from Gyroscope of Body motion in Z directions as time domain
+	Numeric value
+tBodyGyroJerk-std()-X
+
+Standard deviation value of Jerk signal from Gyroscope of Body motion in X directions as time domain
+	Numeric value
+tBodyGyroJerk-std()-Y
+
+Standard deviation value of Jerk signal from Gyroscope of Body motion in Y directions as time domain
+	Numeric value
+tBodyGyroJerk-std()-Z
+
+Standard deviation value of Jerk signal from Gyroscope of Body motion in Z directions as time domain
+	Numeric value
+tBodyAccMag-mean()
+
+Mean value of calculated Magnitude of Raw three-dimensional signal from Accelerometer of Body motion as time domain
+	Numeric value
+tBodyAccMag-std()
+
+Standard deviation value of calculated Magnitude of Raw three-dimensional signal from Accelerometer of Body motion as time domain
+	Numeric value
+tGravityAccMag-mean()
+
+Mean value of calculated Magnitude of Raw three-dimensional signal from Accelerometer of Gravity acceleration as time domain
+	Numeric value
+tGravityAccMag-std()
+
+Standard deviation value of calculated Magnitude of Raw three-dimensional signal from Accelerometer of Gravity acceleration as time domain
+	Numeric value
+tBodyAccJerkMag-mean()
+
+Mean value of calculated Magnitude of Jerk three-dimensional signal from Accelerometer of Body motion as time domain
+	Numeric value
+tBodyAccJerkMag-std()
+
+Standard deviation value of calculated Magnitude of Jerk three-dimensional signal from Accelerometer of Body motion as time domain
+	Numeric value
+tBodyGyroMag-mean()
+
+Mean value of calculated Magnitude of Raw three-dimensional signal from Gyroscope of Body motion as time domain
+	Numeric value
+tBodyGyroMag-std()
+
+Standard deviation value of calculated Magnitude of Raw three-dimensional signal from Gyroscope of Body motion as time domain
+	Numeric value
+tBodyGyroJerkMag-mean()
+
+Mean value of calculated Magnitude of Jerk three-dimensional signal from Gyroscope of Body motion as time domain
+	Numeric value
+tBodyGyroJerkMag-std()
+
+Standard deviation value of calculated Magnitude of Jerk three-dimensional signal from Gyroscope of Body motion as time domain
+	Numeric value
+fBodyAcc-mean()-X
+
+Mean value of Raw signal from Accelerometer of Body motion in X directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAcc-mean()-Y
+
+Mean value of Raw signal from Accelerometer of Body motion in Y directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAcc-mean()-Z
+
+Mean value of Raw signal from Accelerometer of Body motion in Z directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAcc-std()-X
+
+Standard deviation value of Raw signal from Accelerometer of Body motion in X directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAcc-std()-Y
+
+Standard deviation value of Raw signal from Accelerometer of Body motion in Y directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAcc-std()-Z
+
+Standard deviation value of Raw signal from Accelerometer of Body motion in Z directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAccJerk-mean()-X
+
+Mean value of Jerk signal from Accelerometer of Body motion in X directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAccJerk-mean()-Y
+
+Mean value of Jerk signal from Accelerometer of Body motion in Y directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAccJerk-mean()-Z
+
+Mean value of Jerk signal from Accelerometer of Body motion in Z directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAccJerk-std()-X
+
+Standard deviation value of Jerk signal from Accelerometer of Body motion in X directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAccJerk-std()-Y
+
+Standard deviation value of Jerk signal from Accelerometer of Body motion in Y directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAccJerk-std()-Z
+
+Standard deviation value of Jerk signal from Accelerometer of Body motion in Z directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyGyro-mean()-X
+
+Mean value of Raw signal from Gyroscope of Body motion in X directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyGyro-mean()-Y
+
+Mean value of Raw signal from Gyroscope of Body motion in Y directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyGyro-mean()-Z
+
+Mean value of Raw signal from Gyroscope of Body motion in Z directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyGyro-std()-X
+
+Standard deviation value of Raw signal from Gyroscope of Body motion in X directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyGyro-std()-Y
+
+Standard deviation value of Raw signal from Gyroscope of Body motion in Y directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyGyro-std()-Z
+
+Standard deviation value of Raw signal from Gyroscope of Body motion in X directions as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAccMag-mean()
+
+Mean value of calculated Magnitude of Raw three-dimensional signal from Accelerometer of Body motion as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyAccMag-std()
+
+Standard deviation value of calculated Magnitude of Raw three-dimensional signal from Accelerometer of Body motion as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyBodyAccJerkMag-mean()
+
+Mean value of calculated Magnitude of Jerk three-dimensional signal from Accelerometer of Body motion as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyBodyAccJerkMag-std()
+
+Standard deviation value of calculated Magnitude of Jerk three-dimensional signal from Accelerometer of Body motion as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyBodyGyroMag-mean()
+
+Mean value of calculated Magnitude of Raw three-dimensional signal from Gyroscope of Body motion as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyBodyGyroMag-std()
+
+Standard deviation value of calculated Magnitude or Raw three-dimensional signal from Gyroscope of Body motion as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyBodyGyroJerkMag-mean()
+
+Mean value of calculated Magnitude of Jerk three-dimensional signal from Gyroscope of Body motion as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
+fBodyBodyGyroJerkMag-std()
+
+Standard deviation value of calculated Magnitude of Jerk three-dimensional signal from Gyroscope of Body motion as frequency domain (after Fast Fourier Transform – FFT – was applied)
+	Numeric value
 
 and the rest 
 ================================================>> describes the values of differnt measurements for differnt persons for different activities
